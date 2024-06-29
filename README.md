@@ -14,16 +14,15 @@ This is a simple command-line Tic-Tac-Toe game implemented in C++. The game allo
 
 To compile and run this project, you need to have a C++ compiler installed on your machine. You can use GCC, Clang, or any other standard C++ compiler.
 ```bash
-./tic_tac_toe
+g++ -o tic_tac_toe tictactoe.cpp
 ```
 
 ## Running the Game
 
 After compilation, you can run the game using:
 ```bash
-g++ -o tic_tac_toe tictactoe.cpp
+./tic_tac_toe
 ```
-
 
 ## How to Play
 - The game board consists of 9 spaces, numbered from 1 to 9.
